@@ -1,0 +1,36 @@
+{
+  "name": "react-webpack-app",
+  "version": "1.0.0",
+  "description": "Personal scaffolding tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadifeihong/react-webpack-app.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "dadifeihong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dadifeihong/react-webpack-app/issues"
+  },
+  "homepage": "https://github.com/dadifeihong/react-webpack-app#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.28.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
